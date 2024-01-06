@@ -55,3 +55,20 @@ padding: 10px 20px;
 .banner-content {
     max-width: 500px;
 }
+/* main section style */
+.section-title {
+    color: #181818;
+text-align: center;
+font-size: 30px;
+}
+.sectio-description {
+    color:   #757575;
+text-align: center;
+font-size: 18px;
+}
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
