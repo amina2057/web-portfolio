@@ -9,8 +9,9 @@ font-family: 'Open Sans', sans-serif;
 /* nav retated styles */
 nav {
     display: flex;
-    justify-content: space-between;
-align-items: center;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 0 190px;
 }
 .nav-title {
     color: #181818; 
@@ -31,10 +32,26 @@ nav a{
 }
 .btn-primary {
     border-radius: 5px;
-background: #FD6E0A;
+background:  #FD6E0A;
 color:  #FFF;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 padding: 10px 20px;
+}
+/* header related styles */
+.header {
+    background-color:  #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner {
+    padding: 30px 150px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content {
+    max-width: 500px;
 }
